@@ -26,6 +26,7 @@ public class BinaryTree {
             return newNode;
 
         }
+        //preOrder
         public static void preOrder(Node root){
             if(root == null){
                 System.out.print("-1"+" ");
