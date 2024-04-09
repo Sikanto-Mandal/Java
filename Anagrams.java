@@ -1,5 +1,4 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
+import java.util.*;
 
 public class Anagrams {
     public static boolean isAnagrams(String str1, String str2){
@@ -22,11 +21,8 @@ public class Anagrams {
     }
     public static void main(String args[]){
         String str1 ="Earth";
-        String str2 = "HeRt";  
-        System.out.println(isAnagrams(str1, str2));
-
-       
-
+        String str2 = "HeaRt";  
+        System.out.println(isAnagrams(str1, str2));      
         
     }
 }

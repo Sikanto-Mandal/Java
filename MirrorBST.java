@@ -42,7 +42,7 @@ public class MirrorBST {
         root.right.right = new Node(11);
 
 
-        createMirror(root );
+       root = createMirror(root );
 
         preoder(root);
     }
